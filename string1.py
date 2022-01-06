@@ -1,7 +1,7 @@
-w=input('enter the string:')
-a=[]
-str= w.split()
-for i in str:
-    if i not in a:
-        a.append(i)
-print(a)
+str=input("Enter the string:")
+c=input("Enter the character:")
+count=0
+for i in range(len(str)):
+	if(str[i]==c):
+		count=count+1
+print(count)

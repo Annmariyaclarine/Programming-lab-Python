@@ -3,7 +3,7 @@ fn1=open('newfile.txt','w+')
 cont=fn.readlines()
 print(cont)
 for i in range(0,len(cont)):
-	if(i%2!=0):
+	if(i%2==0):
 		fn1.write(cont[i])
 	else:
 		continue
